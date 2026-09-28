@@ -1,0 +1,25 @@
+# Local environments and scratch work
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+work/
+
+# Private diagnostics and device data
+private-backups/
+raw-logs/
+*.log
+*.dump
+*.bin
+*.pickle
+*.pcap
+*.pcapng
+*.bak
+.env
+.env.*
+
+# Ignore diagnostic text except deliberately reviewed public examples
+*.txt
+!examples/*.sanitized.txt
